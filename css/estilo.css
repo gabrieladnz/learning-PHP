@@ -15,16 +15,38 @@ nav {
 }
 
 form {
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 15%;
+}
+
+input {
+    outline: 0;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(120, 11, 116, 0.237);
+}
+
+#botaoEnviar {
+    font-size: 13px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.826);
+    color: azure;
+    margin-left: 30%;
+    margin-top: 6%;
+    width: 90px;
+    height: 30px;
+}
+
+#inMess {
+    height: 100px;
 }
 
 #formEmail {
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 35%;
-    width: 400px;
-    height: 200px;
+    width: 380px;
+    height: 320px;
     border-radius: 25px;
     background-color: rgba(162, 22, 255, 0.221);
 }
@@ -36,9 +58,9 @@ form {
 #tituloEmail {
     color: rgba(255, 0, 217, 0.918);
     text-align: center;
-} 
+}
 
-#botGit { 
+#botGit {
     border-radius: 10px;
     color: white;
     background-color: rgba(153, 15, 228, 0.215);
