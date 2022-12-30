@@ -1,0 +1,6 @@
+body {
+    background-image: url("../img/fundo2.jpg");
+    /* cover e no-repeat para manter o fundo estático */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

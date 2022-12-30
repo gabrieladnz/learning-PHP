@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Curso Get started with PHP</title>
 </head>
+
 <body>
+    <nav>
+
+    </nav>
+    <!-- formulário de envio de email -->
     <form>
         <label>Destinatário:</label><input>
         <label>Mensagem:</label><input>
     </form>
 
-    <?php 
+    <?php
     // função que lê arquivo e exibe na página
     readfile('doc/teste.txt');
     ?>
 </body>
+<footer>
+
+</footer>
+
 </html>
