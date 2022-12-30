@@ -1,6 +1,66 @@
+* {
+    font-family: 'Franklin Gothic Medium';
+}
+
 body {
     background-image: url("../img/fundo2.jpg");
     /* cover e no-repeat para manter o fundo estático */
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+nav {
+    margin-top: 0.5%;
+    margin-left: 85%;
+}
+
+form {
+    font-size: 15px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#formEmail {
+    margin-top: 10%;
+    margin-left: 35%;
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgba(162, 22, 255, 0.221);
+}
+
+#labelEmail {
+    color: aliceblue;
+}
+
+#tituloEmail {
+    color: rgba(255, 0, 217, 0.918);
+    text-align: center;
+} 
+
+#botGit { 
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(153, 15, 228, 0.215);
+    border-color: rgba(153, 15, 228, 0);
+}
+
+#botLinkd {
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(153, 15, 228, 0.215);
+    border-color: rgba(153, 15, 228, 0);
+}
+
+#botEmail {
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(153, 15, 228, 0.215);
+    border-color: rgba(153, 15, 228, 0);
+}
+
+#texto {
+    color: rgba(253, 253, 253, 0.804);
+    position: absolute;
+    margin-left: 1%;
 }
