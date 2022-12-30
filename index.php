@@ -1,4 +1,3 @@
-<?php $form_complete = null; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
