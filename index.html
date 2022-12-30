@@ -28,12 +28,13 @@
         <br>
         <h4 id="tituloEmail">EMAIL FÁCIL</h4>
         <form name="contact" method="POST" action="processo.php">
+            <!--
             <?php
             if (isset($_POST['name']) && empty(trim($_POST['name']))) {
                 echo "<p class=\"alert\">Name is required</p>";
                 $form_complete = false;
             }
-            ?>
+            ?>-->
             <label for="name" id="labelEmail">Nome:</label><input style="margin-left: 16%; height: 30px;" required /><br>
             <!--<?php
             $email_regex = '^[\w\.=-]+@[\w\.-]+\.[\w]{2,3}$^';
@@ -56,13 +57,13 @@
             <button id="botaoEnviar" type="submit" name="submit" value="Submit">Enviar <span style="color:aliceblue;" class="bi bi-send"></span></button>
         </form>
     </section>
-
+<!--
     <style>
         .alert {
             color: red;
             font-weight: bold;
         }
-    </style>
+    </style>-->
 <!--
     <?php
     $form_complete =  (!is_null($form_complete)) ? $form_complete : true;
