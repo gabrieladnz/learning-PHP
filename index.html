@@ -35,7 +35,7 @@
             }
             ?>
             <label for="name" id="labelEmail">Nome:</label><input style="margin-left: 16%; height: 30px;" required /><br>
-            <?php
+            <!--<?php
             $email_regex = '^[\w\.=-]+@[\w\.-]+\.[\w]{2,3}$^';
             if (isset($_POST['email']) && empty(trim($_POST['email']))) {
                 echo "<p class=\"alert\">Email is required</p>";
@@ -44,14 +44,14 @@
                 echo "<p class=\"alert\">Please enter a valid Email Address.</p>";
                 $form_complete = false;
             }
-            ?>
+            ?>-->
             <label for="name" id="labelEmail">Email:</label><input type="email" name="email" style="margin-left: 16%; margin-top: 4%; height: 30px;"><br>
-            <?php
+            <!--<?php
             if (isset($_POST['message']) && empty(trim($_POST['message']))) {
                 echo "<p class=\"alert\">Message is required</p>";
                 $form_complete = false;
             }
-            ?>
+            ?>-->
             <label for="message" id="labelEmail">Mensagem:</label><input id="inMess" style="margin-left: 6%; margin-top: 4%;">
             <button id="botaoEnviar" type="submit" name="submit" value="Submit">Enviar <span style="color:aliceblue;" class="bi bi-send"></span></button>
         </form>
@@ -63,7 +63,7 @@
             font-weight: bold;
         }
     </style>
-
+<!--
     <?php
     $form_complete =  (!is_null($form_complete)) ? $form_complete : true;
     if ($form_complete) {
@@ -77,6 +77,7 @@
         }
     }
     ?>
+    -->
     <!--
     // função que lê arquivo e exibe na página
     readfile('doc/teste.txt');
